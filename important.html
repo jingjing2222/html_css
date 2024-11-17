@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>가장 많이 쓰이는 HTML 태그와 속성</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+        pre {
+            background-color: #f8f8f8;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h2><a href="index.html">뒤로가기</a></h2>
+    <h1>가장 많이 쓰이는 HTML 태그와 속성</h1>
+</header>
+
+<main>
+    <section>
+        <h2>&lt;div&gt; 태그</h2>
+        <pre>
+1. 기본 사용:
+<div>이것은 div입니다.</div>
+
+2. class 속성:
+<div class="box">클래스가 지정된 div입니다.</div>
+
+3. id 속성:
+<div id="unique">유일한 id를 가진 div입니다.</div>
+
+4. style 속성:
+<div style="color: red;">스타일이 적용된 div입니다.</div>
+
+5. data-* 속성:
+<div data-info="example">커스텀 데이터 속성을 가진 div입니다.</div>
+        </pre>
+    </section>
+
+    <section>
+        <h2>&lt;p&gt; 태그</h2>
+        <pre>
+1. 기본 사용:
+<p>이것은 문단입니다.</p>
+
+2. class 속성:
+<p class="text">클래스가 지정된 문단입니다.</p>
+
+3. id 속성:
+<p id="paragraph">유일한 id를 가진 문단입니다.</p>
+
+4. style 속성:
+<p style="font-weight: bold;">스타일이 적용된 문단입니다.</p>
+
+5. title 속성:
+<p title="Tooltip">마우스를 올리면 툴팁이 나타납니다.</p>
+        </pre>
+    </section>
+
+    <section>
+        <h2>&lt;a&gt; 태그</h2>
+        <pre>
+1. 기본 사용:
+<a href="https://www.example.com">링크</a>
+
+2. target 속성:
+<a href="https://www.example.com" target="_blank">새 탭에서 열기</a>
+
+3. rel 속성:
+<a href="https://www.example.com" rel="noopener">보안 속성 추가</a>
+
+4. title 속성:
+<a href="https://www.example.com" title="Example">툴팁이 있는 링크</a>
+
+5. style 속성:
+<a href="https://www.example.com" style="color: blue;">스타일이 있는 링크</a>
+        </pre>
+    </section>
+
+    <section>
+        <h2>&lt;img&gt; 태그</h2>
+        <pre>
+1. 기본 사용:
+<img src="example.jpg" alt="설명 이미지">
+
+2. width 속성:
+<img src="example.jpg" alt="설명 이미지" width="200">
+
+3. height 속성:
+<img src="example.jpg" alt="설명 이미지" height="100">
+
+4. title 속성:
+<img src="example.jpg" alt="설명 이미지" title="Tooltip">
+
+5. style 속성:
+<img src="example.jpg" alt="설명 이미지" style="border-radius: 10px;">
+        </pre>
+    </section>
+
+    <section>
+        <h2>&lt;input&gt; 태그</h2>
+        <pre>
+1. 기본 사용:
+<input type="text" name="username">
+
+2. placeholder 속성:
+<input type="text" name="username" placeholder="사용자 이름 입력">
+
+3. required 속성:
+<input type="text" name="username" placeholder="필수 입력" required>
+
+4. value 속성:
+<input type="text" name="username" value="기본값">
+
+5. style 속성:
+<input type="text" name="username" style="border: 1px solid red;">
+        </pre>
+    </section>
+
+    <section>
+        <h2>&lt;form&gt; 태그</h2>
+        <pre>
+1. 기본 사용:
+<form action="/submit" method="post">...</form>
+
+2. method 속성:
+<form action="/submit" method="get">GET 요청</form>
+
+3. action 속성:
+<form action="/submit">제출 URL</form>
+
+4. enctype 속성:
+<form action="/upload" method="post" enctype="multipart/form-data">파일 업로드</form>
+
+5. target 속성:
+<form action="/submit" target="_blank">새 창에서 제출</form>
+        </pre>
+    </section>
+
+    <section>
+        <h2>&lt;button&gt; 태그</h2>
+        <pre>
+1. 기본 사용:
+<button>클릭</button>
+
+2. type 속성:
+<button type="submit">제출</button>
+
+3. id 속성:
+<button id="myButton">유일한 버튼</button>
+
+4. class 속성:
+<button class="btn">스타일이 적용된 버튼</button>
+
+5. style 속성:
+<button style="background-color: blue; color: white;">스타일 버튼</button>
+        </pre>
+    </section>
+
+    <section>
+        <h2>&lt;table&gt; 태그</h2>
+        <pre>
+1. 기본 사용:
+<table>
+    <tr>
+        <td>셀 1</td>
+        <td>셀 2</td>
+    </tr>
+</table>
+
+2. border 속성:
+<table border="1">테두리가 있는 테이블</table>
+
+3. cellspacing 속성:
+<table cellspacing="5">셀 간격</table>
+
+4. cellpadding 속성:
+<table cellpadding="10">셀 안쪽 여백</table>
+
+5. width 속성:
+<table width="50%">너비가 지정된 테이블</table>
+        </pre>
+    </section>
+
+    <section>
+        <h2>&lt;span&gt; 태그</h2>
+        <pre>
+1. 기본 사용:
+<span>이것은 인라인 텍스트입니다.</span>
+
+2. class 속성:
+<span class="highlight">스타일 적용된 텍스트</span>
+
+3. id 속성:
+<span id="uniqueSpan">유일한 span</span>
+
+4. style 속성:
+<span style="color: green;">색상이 적용된 텍스트</span>
+
+5. title 속성:
+<span title="Tooltip">툴팁이 있는 텍스트</span>
+        </pre>
+    </section>
+
+    <section>
+        <h2>&lt;ul&gt; 및 &lt;ol&gt; 태그</h2>
+        <pre>
+1. 기본 사용 (순서 없는 목록):
+<ul>
+    <li>항목 1</li>
+    <li>항목 2</li>
+</ul>
+
+2. 기본 사용 (순서 있는 목록):
+<ol>
+    <li>항목 1</li>
+    <li>항목 2</li>
+</ol>
+        </pre>
+    </section>
+
+    <section>
+        <h2>&lt;textarea&gt; 태그</h2>
+        <pre>
+1. 기본 사용:
+<textarea></textarea>
+
+2. rows 속성:
+<textarea rows="5"></textarea>
+
+3. cols 속성:
+<textarea cols="30"></textarea>
+
+4. placeholder 속성:
+<textarea placeholder="내용 입력"></textarea>
+
+5. style 속성:
+<textarea style="border: 2px solid red;"></textarea>
+        </pre>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2023 HTML 태그와 속성 예시</p>
+</footer>
+
+</body>
+</html>

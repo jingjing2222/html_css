@@ -1,0 +1,273 @@
+body {
+    font-family: Arial, sans-serif; /* 전체 글꼴 설정 */
+    margin: 20px; /* 문서 전체 여백 설정 */
+}
+
+h1 {
+    text-align: center; /* 제목을 중앙 정렬 */
+    margin-bottom: 50px; /* 제목 아래 여백 */
+}
+
+/* 1. margin - 요소의 바깥쪽 여백 설정 */
+.margin-example {
+    background-color: #e0e0e0; /* 배경색 설정 */
+    margin: 20px; /* 외부 여백 */
+    padding: 10px; /* 내부 여백 */
+}
+
+/* 2. padding - 요소의 내부 여백 설정 */
+.padding-example {
+    background-color: #d0d0d0; /* 배경색 설정 */
+    padding: 20px; /* 내부 여백 */
+}
+
+/* 3. border - 요소의 테두리 설정 */
+.border-example {
+    border: 2px solid #000; /* 테두리 두께, 스타일, 색상 */
+    padding: 10px; /* 내부 여백 */
+}
+
+/* 4. background-color - 요소의 배경색 설정 */
+.background-color-example {
+    background-color: #a0c0ff; /* 배경색 */
+    padding: 10px; /* 내부 여백 */
+}
+
+/* 5. color - 텍스트 색상 설정 */
+.color-example {
+    color: blue; /* 글자색 */
+    padding: 10px; /* 내부 여백 */
+}
+
+/* 6. font-size - 글자 크기 설정 */
+.font-size-example {
+    font-size: 24px; /* 글자 크기 */
+    padding: 10px; /* 내부 여백 */
+}
+
+/* 7. font-family - 글꼴 설정 */
+.font-family-example {
+    font-family: 'Courier New', monospace; /* 글꼴 설정 */
+    padding: 10px; /* 내부 여백 */
+}
+
+/* 8. width - 요소 너비 설정 */
+.width-example {
+    background-color: #e0e0e0; /* 배경색 */
+    width: 200px; /* 너비 설정 */
+    padding: 10px; /* 내부 여백 */
+}
+
+/* 9. height - 요소 높이 설정 */
+.height-example {
+    background-color: #e0e0e0; /* 배경색 */
+    height: 150px; /* 높이 설정 */
+    padding: 10px; /* 내부 여백 */
+}
+
+/* 10. display - 요소의 표시 방법 설정 */
+.display-example span {
+    display: inline-block; /* 요소를 인라인 블록으로 표시 */
+    background-color: #e0e0e0; /* 배경색 */
+    padding: 10px; /* 내부 여백 */
+    margin-right: 10px; /* 오른쪽 여백 */
+}
+
+/* 11. position - 요소의 위치 지정 방법 설정 */
+.position-container {
+    position: relative; /* 컨테이너의 상대 위치 지정 */
+    height: 200px; /* 높이 설정 */
+    background-color: #f0f0f0; /* 배경색 */
+}
+
+.position-example {
+    position: absolute; /* 절대 위치 지정 */
+    top: 50px; /* 위쪽 위치 */
+    left: 100px; /* 왼쪽 위치 */
+    background-color: #e0e0e0; /* 배경색 */
+    padding: 10px; /* 내부 여백 */
+}
+
+/* 12. top, left - 요소의 상대 위치 조정 */
+.relative-position-example {
+    position: relative; /* 상대 위치 지정 */
+    top: 20px; /* 위쪽 여백 */
+    left: 40px; /* 왼쪽 여백 */
+    background-color: #e0e0e0; /* 배경색 */
+    padding: 10px; /* 내부 여백 */
+}
+
+/* 13. float - 요소를 왼쪽 또는 오른쪽으로 정렬 */
+.float-container {
+    background-color: #f0f0f0; /* 배경색 */
+    padding: 10px; /* 내부 여백 */
+}
+
+.float-example {
+    float: right; /* 요소를 오른쪽 정렬 */
+    width: 200px; /* 너비 설정 */
+    background-color: #e0e0e0; /* 배경색 */
+    padding: 10px; /* 내부 여백 */
+    margin-left: 10px; /* 왼쪽 여백 */
+}
+
+/* 14. clear - float 요소 다음의 흐름을 정상화 */
+.clear-example {
+    clear: both; /* 좌우 float 해제 */
+    background-color: #e0e0e0; /* 배경색 */
+    padding: 10px; /* 내부 여백 */
+}
+
+/* 15. overflow - 넘치는 콘텐츠 처리 방법 설정 */
+.overflow-example {
+    width: 200px; /* 너비 설정 */
+    height: 100px; /* 높이 설정 */
+    overflow: auto; /* 스크롤 생성 */
+    background-color: #e0e0e0; /* 배경색 */
+    padding: 10px; /* 내부 여백 */
+}
+
+/* 16. text-align - 텍스트 정렬 방식 설정 */
+.text-align-example {
+    text-align: center; /* 텍스트 중앙 정렬 */
+    background-color: #e0e0e0; /* 배경색 */
+    padding: 10px; /* 내부 여백 */
+}
+
+/* 17. line-height - 텍스트 행간 설정 */
+.line-height-example {
+    line-height: 2; /* 행간 설정 */
+    background-color: #e0e0e0; /* 배경색 */
+    padding: 10px; /* 내부 여백 */
+}
+
+/* 18. font-weight - 글자 두께 설정 */
+.font-weight-example {
+    font-weight: bold; /* 글자 굵게 설정 */
+    background-color: #e0e0e0; /* 배경색 */
+    padding: 10px; /* 내부 여백 */
+}
+
+/* 19. text-decoration - 텍스트 장식 설정 */
+.text-decoration-example {
+    text-decoration: underline; /* 밑줄 설정 */
+    background-color: #e0e0e0; /* 배경색 */
+    padding: 10px; /* 내부 여백 */
+}
+
+/* 20. border-radius - 테두리 모서리 둥글게 설정 */
+.border-radius-example {
+    border: 2px solid #000; /* 테두리 */
+    border-radius: 15px; /* 모서리 반경 */
+    padding: 10px; /* 내부 여백 */
+}
+
+/* 21. box-shadow - 요소의 그림자 설정 */
+.box-shadow-example {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); /* 그림자 */
+    padding: 10px; /* 내부 여백 */
+    background-color: #e0e0e0; /* 배경색 */
+}
+
+/* 22. background-image - 배경 이미지 설정 */
+.background-image-example {
+    background-image: url('https://via.placeholder.com/150'); /* 이미지 URL */
+    background-size: cover; /* 이미지 크기 맞추기 */
+    padding: 50px; /* 내부 여백 */
+    color: #fff; /* 텍스트 색상 */
+}
+
+/* 23. opacity - 요소의 불투명도 설정 */
+.opacity-example {
+    background-color: #000; /* 배경색 */
+    color: #fff; /* 글자색 */
+    opacity: 0.5; /* 불투명도 설정 */
+    padding: 10px; /* 내부 여백 */
+}
+
+/* 24. cursor - 마우스 포인터 모양 설정 */
+.cursor-example {
+    cursor: pointer; /* 포인터 커서 */
+    background-color: #e0e0e0; /* 배경색 */
+    padding: 10px; /* 내부 여백 */
+}
+
+/* 25. z-index - 요소의 쌓임 순서 설정 */
+.z-index-container {
+    position: relative; /* 상대 위치 */
+    height: 200px; /* 높이 설정 */
+}
+
+.z-index-example {
+    position: absolute; /* 절대 위치 */
+    top: 20px; /* 위쪽 위치 */
+    left: 20px; /* 왼쪽 위치 */
+    background-color: rgba(255, 0, 0, 0.5); /* 배경색 */
+    padding: 10px; /* 내부 여백 */
+    z-index: 2; /* 쌓임 순서 */
+}
+
+.z-index-background {
+    position: absolute; /* 절대 위치 */
+    top: 50px; /* 위쪽 위치 */
+    left: 50px; /* 왼쪽 위치 */
+    background-color: rgba(0, 0, 255, 0.5); /* 배경색 */
+    padding: 10px; /* 내부 여백 */
+    z-index: 1; /* 쌓임 순서 */
+}
+
+/* 26. transition - 요소 상태 전환 애니메이션 설정 */
+.transition-example {
+    background-color: #e0e0e0; /* 배경색 */
+    padding: 10px; /* 내부 여백 */
+    transition: background-color 0.3s ease; /* 배경색 변화 애니메이션 */
+    margin-bottom: 200px;
+}
+
+.transition-example:hover {
+    background-color: #a0a0a0; /* 호버 시 배경색 */
+}
+
+/* 27. transform - 요소 변형 설정 */
+.transform-example {
+    transform: rotate(10deg); /* 회전 변형 */
+    background-color: #e0e0e0; /* 배경색 */
+    padding: 10px; /* 내부 여백 */
+    margin-bottom: 150px;
+
+}
+
+/* 28. flex - 플렉스박스 레이아웃 설정 */
+.flex-example {
+    display: flex; /* 플렉스박스 사용 */
+    justify-content: space-around; /* 자식 요소 간격 조정 */
+    background-color: #e0e0e0; /* 배경색 */
+    padding: 10px; /* 내부 여백 */
+}
+
+.flex-example div {
+    background-color: #c0c0c0; /* 자식 요소 배경색 */
+    padding: 20px; /* 자식 요소 내부 여백 */
+}
+
+/* 29. grid - 그리드 레이아웃 설정 */
+.grid-example {
+    display: grid; /* 그리드 사용 */
+    grid-template-columns: repeat(3, 1fr); /* 3열 레이아웃 */
+    gap: 10px; /* 그리드 간격 */
+    background-color: #e0e0e0; /* 배경색 */
+    padding: 10px; /* 내부 여백 */
+}
+
+.grid-example div {
+    background-color: #c0c0c0; /* 그리드 항목 배경색 */
+    padding: 20px; /* 그리드 항목 내부 여백 */
+    text-align: center; /* 텍스트 중앙 정렬 */
+}
+
+/* 30. list-style - 리스트 스타일 설정 */
+.list-style-example {
+    list-style: square inside; /* 리스트 스타일 */
+    background-color: #e0e0e0; /* 배경색 */
+    padding: 10px; /* 내부 여백 */
+}
